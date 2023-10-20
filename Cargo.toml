@@ -1,0 +1,9 @@
+[package]
+name = "ai"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+seahorse = "*"
+reqwest = { version = "*", features = ["blocking", "json"] }
+tokio = { version = "1", features = ["full"] }
